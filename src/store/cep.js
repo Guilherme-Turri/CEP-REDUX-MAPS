@@ -21,8 +21,6 @@ const cep = createAsyncSlice({
   }),
 });
 
-//AIzaSyBDVOokD_FoM6TLghewl1q8blAyw0aSR_0
-
 export const fetchAdress = cep.asyncAction;
 export const { getAdress, deleteAdress } = cep.actions;
 
